@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="combo_Lab">
+      <item>lab_c2</item>
+      <item>lab_linf</item>
+      <item>lab_leica</item>
+      <item>lab_lnet</item>
+      <item>lab_ltel</item>
+
+
+  </string-array>
+</resources>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/image_description"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/crearcuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:text="@string/crear_cuenta"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:translationY="-20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="30dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/registrar_nombre"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/crearcuenta"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="50dp"
+        android:translationY="-40dp"
+        android:translationX="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_Nombre"
+            android:hint="@string/nombre"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tv_perfil"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:translationY="230dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_registra_correo"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registrar_nombre"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="50dp"
+        android:translationY="-30dp"
+        android:translationX="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_Correo"
+            android:hint="@string/correo"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tv_correo_electro"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:translationY="320dp" />
+    <TextView
+        android:id="@+id/letra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="-20dp"
+        android:layout_below="@+id/til_registra_correo"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/puedes_utilizar_letras_n_meros_y_puntos"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_registra_contraseña"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/letra"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="50dp"
+        android:translationX="20dp"
+        android:translationY="-39dp"
+        app:endIconMode="password_toggle">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_password"
+            android:hint="@string/contraseña"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tv_contrasena_registro"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:translationY="435dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_registra_confirmacioncontraseña"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/til_registra_contraseña"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="50dp"
+        android:translationY="-35dp"
+        android:translationX="20dp"
+        app:endIconMode="password_toggle">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_confirmarpassword"
+            android:hint="@string/confirmar_contraseña"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tv_confirm_contrasena_registro"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:translationY="530dp" />
+
+    <ImageButton
+        android:id="@+id/btn_siguiente"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/logo"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="-68dp"
+        android:background="@drawable/flecha_siguiente"
+        android:backgroundTint="@color/black"
+        android:contentDescription="@string/image_description"
+        android:translationX="260dp"
+        android:translationY="-10dp" />
+
+    <Button
+        android:id="@+id/btn_crearcuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#3F51B5"
+        android:text="@string/validar"
+        android:translationX="20dp"
+        android:translationY="550dp" />
+
+    <Button
+        android:id="@+id/btn_cancelarcuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_crearcuenta"
+        android:layout_marginStart="145dp"
+        android:translationY="550dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#3F51B5"
+        android:text="@string/cancelar" />
+</RelativeLayout>

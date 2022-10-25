@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/archivo</item>
+        <item>@font/archivo_narrow</item>
+        <item>@font/arsenal</item>
+        <item>@font/chakra_petch_light</item>
+        <item>@font/convergence</item>
+    </array>
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".control">
+
+    <TextView
+        android:id="@+id/txt_mute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mute"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="280dp"
+        android:translationY="110dp" />
+
+    <ImageButton
+        android:id="@+id/btn_atrasperfil"
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:background="@drawable/flecha_anterior"
+        android:translationX="20dp"
+        android:translationY="20dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <ImageButton
+        android:id="@+id/btn_mute"
+        android:layout_width="83dp"
+        android:layout_height="79dp"
+        android:background="@drawable/mute"
+        android:translationX="290dp"
+        android:translationY="20dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <ImageButton
+        android:id="@+id/btn_restar"
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        android:background="@drawable/bajar"
+        android:translationX="300dp"
+        android:translationY="600dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <ImageButton
+        android:id="@+id/btn_sumar"
+        android:layout_width="71dp"
+        android:layout_height="86dp"
+        android:background="@drawable/subir_volumen"
+        android:hint="@string/validar"
+        android:translationX="300dp"
+        android:translationY="200dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <ImageButton
+        android:id="@+id/btn_menu"
+        android:layout_width="70dp"
+        android:layout_height="90dp"
+        android:background="@drawable/menu"
+        android:translationX="30dp"
+        android:translationY="130dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+
+    <ImageButton
+        android:id="@+id/btn_ok"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:background="@drawable/ok"
+        android:hint="@string/validar"
+        android:translationX="100dp"
+        android:translationY="500dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <ImageButton
+        android:id="@+id/btn_arriba"
+        android:layout_width="87dp"
+        android:layout_height="85dp"
+        android:background="@drawable/arriba"
+        android:hint="@string/validar"
+        android:translationX="100dp"
+        android:translationY="400dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <ImageButton
+        android:id="@+id/btn_derecha"
+        android:layout_width="89dp"
+        android:layout_height="94dp"
+        android:background="@drawable/derecha"
+        android:hint="@string/validar"
+        android:translationX="190dp"
+        android:translationY="500dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <ImageButton
+        android:id="@+id/btn_izquierda"
+        android:layout_width="79dp"
+        android:layout_height="87dp"
+        android:background="@drawable/izquierda"
+        android:hint="@string/validar"
+        android:translationX="20dp"
+        android:translationY="500dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <ImageButton
+        android:id="@+id/btn_abajo"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:background="@drawable/abajo"
+        android:hint="@string/validar"
+        android:translationX="100dp"
+        android:translationY="600dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <TextView
+        android:id="@+id/txt_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="15dp"
+        android:translationY="220dp" />
+
+    <TextView
+        android:id="@+id/txt_volumen"
+        android:layout_width="30dp"
+        android:layout_height="302dp"
+        android:backgroundTint="@color/black"
+        android:text="V o l u m e n"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:translationX="330dp"
+        android:translationY="330dp" />
+
+
+</RelativeLayout>

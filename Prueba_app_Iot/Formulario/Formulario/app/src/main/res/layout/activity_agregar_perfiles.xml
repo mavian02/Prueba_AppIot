@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".agregar_perfiles">
+
+    <ImageButton
+        android:id="@+id/btn_volverperfil"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="-68dp"
+        android:background="@drawable/flecha_anterior"
+        android:backgroundTint="@color/black"
+        android:contentDescription="@string/image_description"
+        android:translationX="-50dp"
+        android:translationY="100dp" />
+
+
+    <TextView
+        android:id="@+id/tv_perfiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="@string/desea_agregar_perfil"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:translationY="130dp" />
+
+    <ImageButton
+        android:id="@+id/ib_agregar_perfiles"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/perfil_4"
+        android:contentDescription="@string/image_description"
+        android:translationY="90dp"
+        android:translationX="-50dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="50dp"
+        android:translationX="20dp"
+        android:translationY="400dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/til_registrar_perfil"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre_perfil"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/perfilesAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ib_agregar_perfiles"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        android:translationY="10dp"
+        android:textColor="@color/white"/>
+
+
+    <Button
+        android:id="@+id/btn_guardarperfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/validar"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="30dp"
+        android:background="#48005e"
+        android:translationY="570dp"
+        />
+
+
+</RelativeLayout>

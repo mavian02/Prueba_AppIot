@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dropdown_menu_C2"
+        android:title="@string/lab_c2"
+        android:visible="true" />
+    <item
+        android:id="@+id/dropdown_menu_LINF"
+        android:title="@string/lab_linf"
+        android:visible="true" />
+    <item
+        android:id="@+id/dropdown_menu_LEICA"
+        android:title="@string/lab_leica"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/dropdown_menu_LNET"
+        android:title="@string/lab_lnet"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/dropdown_menu_LTEL"
+        android:title="@string/lab_ltel"
+        android:visible="true" />
+
+</menu>

@@ -1,0 +1,25 @@
+<resources>
+    <!-- activity main -->
+    <string name="app_name">Taller Area TI Inacap</string>
+    <string name="txt_laboratorio">Seleccionar Laboratorio</string>
+    <string name="txt_rut">xxxxxxxx-x</string>
+    <string name="txt_nombre">Escribir nombre</string>
+    <string name="txt_descripcion">EJ: Proyector no funciona</string>
+    <string name="ingreso">INGRESO DE INCIDENTES</string>
+    <string name="button">Grabar incidente</string>
+    <string name="laboratorio">LABORATORIO</string>
+    <string name="trut">RUT</string>
+    <string name="nombre">NOMBRE</string>
+    <string name="descripcion">DESCRIPCION</string>
+
+
+    <!-- errores  -->
+    <string name="error_campo_obligatorio">Campo obligatorio</string>
+    <string name="error_rut_ej">RUT INVALIDO EJ: xxxxxxxx-x</string>
+    <string name="lab_c2">Lab C2</string>
+    <string name="lab_linf">Lab LINF</string>
+    <string name="lab_leica">Lab LEICA</string>
+    <string name="lab_lnet">Lab LNET</string>
+    <string name="lab_ltel">Lab LTEL</string>
+
+</resources>

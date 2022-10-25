@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="image_description">Imagenboton</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="ir_a_gmail">Ir a Gmail</string>
+    <string name="actualizar_contraseña">Actualizar contraseña</string>
+    <string name="olvidaste_tu_contraseña">¿Olvidaste tu contraseña?</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="or_sign_in_with">or sign in with</string>
+    <string name="puedes_utilizar_letras_n_meros_y_puntos">Puedes utilizar letras, números y puntos</string>
+    <string name="utiliza_8_carateres_como_m_nimo_con_una_combinaci_n_de_letras_n_meros_y_s_mbolos">Utiliza 8 carateres como mínimo con una combinación de letras, números y símbolos.</string>
+    <string name="desea_agregar_perfil">¿Desea agregar perfil?</string>
+    <string name="nombre_perfil">Nombre Perfil</string>
+    <string name="has_olvidado_tu_correo_electr_nico">¿Has olvidado tu correo electrónico?</string>
+    <string name="no_es_tu_ordenador">¿No es tu ordenador? Usa el modo invitados para iniciar sesión de forma privada.</string>
+    <string name="informaci_n">Más información</string>
+
+
+    <!--Importantes-->
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo electronico</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="confirmar_contraseña">Confirmar Contraseña</string>
+    <string name="contraseñas_coinciden">contraseñas coinciden</string>
+
+
+    <!--errores-->
+    <string name="error_campo_obligatorio">campo obligatorio</string>
+    <string name="error_correo_invalido">correo invalido</string>
+    <string name="error_contraseña">Contraseña no coinciden</string>
+    <string name="validar">Validar</string>
+    <string name="nombre_invalido">ingresa un nombre valido</string>
+    <string name="contraseña_invalida">ingresa minimo 6 caracteres</string>
+</resources>
